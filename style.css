@@ -241,6 +241,7 @@
   background-color: white;
   letter-spacing: 3px;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .btnTitle button:hover,
