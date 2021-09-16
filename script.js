@@ -1,9 +1,6 @@
-var a = document.querySelector('a')
-var hr = document.querySelector('hr')
-var img = document.querySelector('.img_section')
 var burger = document.getElementById('icon')
 
-// menu mobile
+// menu mobile display
 burger.onclick = function(){
     this.classList.toggle("change");
     
@@ -15,3 +12,6 @@ burger.onclick = function(){
          menu.style.display = "block"
      }
 }
+
+
+
