@@ -1,17 +1,14 @@
-var burger = document.getElementById('icon')
+var burger = document.getElementById("icon");
 
 // menu mobile display
-burger.onclick = function(){
-    this.classList.toggle("change");
-    
-     var menu = document.getElementById('menuMobile')
+burger.onclick = function () {
+  this.classList.toggle("change");
 
-     if(menu.style.display === "block"){
-         menu.style.display = "none"
-     }else{
-         menu.style.display = "block"
-     }
-}
+  var menu = document.getElementById("menuMobile");
 
-
-
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+};
