@@ -8,7 +8,7 @@
 }
 
 /* home section styling */
-.container {
+.home {
   width: 100%;
   height: 100%;
 }
@@ -404,4 +404,345 @@
 .pinterest:hover::after,
 .instagram:hover::after {
   transform: scale(1);
+}
+
+/* responsive section styling */
+@media screen and (max-width: 1500px) {
+  .item4 p {
+    font-size: 3.6em;
+  }
+
+  #itemVr h1 {
+    width: 70%;
+    font-size: 2.4em;
+  }
+
+  #title h2 {
+    font-size: 2.4em;
+  }
+
+  .img_txt h3 {
+    font-size: 1.1em;
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .gridHome nav {
+    width: 96%;
+  }
+
+  .item4 p {
+    font-size: 3.6em;
+  }
+
+  #itemVr h1 {
+    width: 70%;
+    font-size: 2.2em;
+  }
+
+  #title h2 {
+    font-size: 2.4em;
+  }
+
+  .img_txt h3 {
+    font-size: 1.1em;
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and(max-width:1300px){
+  .grid_img_logo {
+    width: 27%;
+  }
+
+  .gridHome nav {
+    width: 100%;
+  }
+
+  .item4 p {
+    font-size: 2.7em;
+  }
+
+  #itemVr h1 {
+    width: 70%;
+    font-size: 2em;
+  }
+  #itemVr p {
+    width: 86%;
+  }
+
+  #title h2 {
+    font-size: 2.2em;
+  }
+
+  .img_txt h3 {
+    font-size: 1em;
+    padding-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grid_img_logo {
+    width: 30%;
+  }
+
+  .gridHome nav {
+    width: 100%;
+  }
+  .gridHome nav a {
+    font-size: 0.8em;
+  }
+
+  .item4 p {
+    width: 80%;
+    font-size: 2.8em;
+  }
+
+  #itemVr {
+    margin-top: 160px;
+  }
+  #itemVr h1 {
+    width: 70%;
+    font-size: 1.8em;
+  }
+  #itemVr p {
+    width: 86%;
+  }
+
+  #title h2 {
+    font-size: 2em;
+  }
+
+  .btnTitle button, .btnMobile button {
+    font-size: 1em;
+  }
+
+  .img_txt h3 {
+    font-size: 0.9em;
+    padding-bottom: 2%;
+  }
+
+  .about_footer nav {
+    width: 85%;
+  }
+
+  .copy_footer p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .sectionOne {
+    background-position: center center;
+  }
+
+  .grid_img_logo {
+    width: 30%;
+  }
+
+  .gridHome nav {
+    width: 100%;
+  }
+  .gridHome nav a {
+    font-size: 0.8em;
+  }
+
+  .item4 p {
+    width: 80%;
+    font-size: 2.5em;
+  }
+
+  #itemVr {
+    margin-top: 140px;
+  }
+  #itemVr h1 {
+    width: 80%;
+    font-size: 1.8em;
+  }
+  #itemVr p {
+    margin-left: 10%;
+    width: 90%;
+    font-size: 1em;
+  }
+
+  #title h2 {
+    font-size: 1.8em;
+  }
+
+  .btnTitle button, .btnMobile button {
+    font-size: 0.9em;
+  }
+
+  .img_txt h3 {
+    font-size: 0.8em;
+    padding-bottom: 2%;
+  }
+
+  .about_footer nav {
+    width: 85%;
+  }
+
+  .copy_footer p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and(max-width:1000px){
+  .sectionOne {
+    background-position: center center;
+  }
+
+  #sectionOne {
+    grid-template-columns: 55% 50%;
+  }
+
+  .grid_img_logo {
+    width: 40%;
+  }
+
+  .gridHome nav {
+    width: 100%;
+  }
+  .gridHome nav a {
+    font-size: 0.8em;
+  }
+
+  .item4 p {
+    width: 80%;
+    font-size: 2.1em;
+  }
+
+  #itemVr {
+    margin-top: 140px;
+  }
+  #itemVr h1 {
+    width: 80%;
+    font-size: 1.8em;
+  }
+  #itemVr p {
+    margin-left: 10%;
+    width: 90%;
+    font-size: 1em;
+  }
+
+  #title h2 {
+    font-size: 1.8em;
+  }
+
+  .btnTitle button, .btnMobile button {
+    font-size: 0.9em;
+  }
+
+  .img_txt h3 {
+    font-size: 0.7em;
+    padding-bottom: 2%;
+  }
+
+  #logo_footer {
+    width: 30%;
+  }
+
+  #social {
+    width: 40%;
+  }
+
+  .about_footer nav {
+    width: 90%;
+  }
+
+  .copy_footer p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .sectionOne {
+    background-position: center center;
+  }
+
+  #sectionOne {
+    grid-template-columns: 50% 50%;
+  }
+
+  .grid_img_logo {
+    width: 40%;
+  }
+
+  .gridHome nav {
+    width: 100%;
+  }
+  .gridHome nav a {
+    font-size: 0.8em;
+  }
+
+  .item4 {
+    grid-column-start: span 2;
+  }
+  .item4 p {
+    width: 70%;
+    font-size: 3.3em;
+  }
+
+  #info {
+    grid-template-columns: 100%;
+  }
+
+  .nodisplay {
+    display: none;
+  }
+
+  .itemVr {
+    margin-left: 0px;
+  }
+
+  #itemVr {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #itemVr h1 {
+    width: 90%;
+    font-size: 3em;
+    padding-bottom: 20px;
+  }
+  #itemVr p {
+    margin-left: 0px;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.1em;
+  }
+
+  .activities {
+    width: 100%;
+    grid-template-columns: 50% 50%;
+  }
+
+  #title h2 {
+    font-size: 1.8em;
+  }
+
+  .btnTitle button, .btnMobile button {
+    font-size: 0.9em;
+  }
+
+  .img_txt h3 {
+    font-size: 1.4em;
+    padding-bottom: 2%;
+  }
+
+  #logo_footer {
+    width: 30%;
+  }
+
+  #social {
+    width: 40%;
+  }
+
+  .about_footer nav {
+    width: 100%;
+  }
+
+  .copy_footer p {
+    font-size: 0.9em;
+  }
 }
